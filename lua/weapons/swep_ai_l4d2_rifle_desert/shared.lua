@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.ShellEffectDirection       = -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0, "weapons/rifle_desert/gunother/rifle_slideback_1.wav"}, {0.4, "weapons/rifle_desert/gunother/rifle_clip_out_1.wav"}, {1.2, "weapons/rifle_desert/gunother/rifle_clip_in_1.wav"}, {1.2, "weapons/rifle_desert/gunother/rifle_clip_locked_1.wav"}, {1.8, "weapons/rifle_desert/gunother/rifle_slideforward_1.wav"}}
+SWEP.ReloadSounds				= {{0, "swep_ai_l4d2_rifle_desert_reload_1"}, {0.4, "swep_ai_l4d2_rifle_desert_reload_2"}, {1.2, "swep_ai_l4d2_rifle_desert_reload_3"}, {1.2, "swep_ai_l4d2_rifle_desert_reload_4"}, {1.8, "swep_ai_l4d2_rifle_desert_reload_5"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -33,7 +33,7 @@ SWEP.Primary.ClipSize			= 60
 SWEP.Primary.DefaultClip		= 60
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
-SWEP.Primary.Sound				= "weapons/rifle_desert/gunfire/rifle_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_rifle_desert_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_desert_rifle.mdl",

@@ -10,7 +10,7 @@ SWEP.HoldType					= "pistol"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "ShellEject"
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.4, "weapons/magnum/gunother/pistol_clip_out_1.wav"}, {1.0, "weapons/magnum/gunother/pistol_clip_in_1.wav"}, {1.6, "weapons/magnum/gunother/pistol_clip_locked_1.wav"}}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_l4d2_magnum_reload_1"}, {1.0, "swep_ai_l4d2_magnum_reload_2"}, {1.6, "swep_ai_l4d2_magnum_reload_3"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_LOW
 
@@ -31,7 +31,7 @@ SWEP.Primary.ClipSize			= 8
 SWEP.Primary.DefaultClip		= 8
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
-SWEP.Primary.Sound				= "weapons/magnum/gunfire/magnum_shoot.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_magnum_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_desert_eagle.mdl",

@@ -12,7 +12,7 @@ SWEP.ShellEffect				= "ShotgunShellEject"
 SWEP.ShellEffectDelay			= 0.4
 SWEP.ShellEffectDirection		= -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.8, "weapons/shotgun/gunother/shotgun_load_shell_2.wav"}, {1.6, "weapons/shotgun/gunother/shotgun_pump_1.wav"}}
+SWEP.ReloadSounds				= {{0.8, "swep_ai_l4d2_shotgun_chrome_reload_1"}, {1.6, "swep_ai_l4d2_shotgun_chrome_reload_2"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -33,8 +33,8 @@ SWEP.Primary.ClipSize			= 8
 SWEP.Primary.DefaultClip		= 8
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
-SWEP.Primary.Sound				= "weapons/shotgun_chrome/gunfire/shotgun_fire_1.wav"
-SWEP.Primary.ExtraSounds		= {{0.4, "weapons/shotgun/gunother/shotgun_pump_1.wav"}}
+SWEP.Primary.Sound				= "swep_ai_l4d2_shotgun_chrome_fire"
+SWEP.Primary.ExtraSounds		= {{0.4, "swep_ai_l4d2_shotgun_chrome_reload_2"}}
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_pumpshotgun_a.mdl",

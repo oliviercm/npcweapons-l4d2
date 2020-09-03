@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.ShellEffectDirection       = -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.4, "weapons/hunting_rifle/gunother/hunting_rifle_clipout.wav"}, {1.4, "weapons/hunting_rifle/gunother/hunting_rifle_clipin.wav"}, {2.0, "weapons/hunting_rifle/gunother/hunting_rifle_cliplocked.wav"}}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_l4d2_hunting_rifle_reload_1"}, {1.4, "swep_ai_l4d2_hunting_rifle_reload_2"}, {2.0, "swep_ai_l4d2_hunting_rifle_reload_3"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -33,7 +33,7 @@ SWEP.Primary.ClipSize			= 15
 SWEP.Primary.DefaultClip		= 15
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_HIGH
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_HIGH
-SWEP.Primary.Sound				= "weapons/hunting_rifle/gunfire/hunting_rifle_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_hunting_rifle_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_sniper_mini14.mdl",

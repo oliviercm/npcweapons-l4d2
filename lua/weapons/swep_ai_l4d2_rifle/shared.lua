@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.ShellEffectDirection       = -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.6, "weapons/rifle/gunother/rifle_clip_out_1.wav"}, {1.2, "weapons/rifle/gunother/rifle_clip_in_1.wav"}, {2.0, "weapons/rifle/gunother/rifle_clip_locked_1.wav"}}
+SWEP.ReloadSounds				= {{0.6, "swep_ai_l4d2_rifle_reload_1"}, {1.2, "swep_ai_l4d2_rifle_reload_2"}, {2.0, "swep_ai_l4d2_rifle_reload_3"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -32,7 +32,7 @@ SWEP.Primary.ClipSize			= 50
 SWEP.Primary.DefaultClip		= 50
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
-SWEP.Primary.Sound				= "weapons/rifle/gunfire/rifle_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_rifle_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_rifle_m16a2.mdl",

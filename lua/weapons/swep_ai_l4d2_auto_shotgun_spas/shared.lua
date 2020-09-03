@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "ShotgunShellEject"
 SWEP.ShellEffectDirection		= -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.8, "weapons/auto_shotgun/gunother/auto_shotgun_load_shell_2.wav"}, {1.6, "weapons/auto_shotgun/gunother/autoshotgun_boltback.wav"}, {1.8, "weapons/auto_shotgun/gunother/autoshotgun_boltforward.wav"}}
+SWEP.ReloadSounds				= {{0.8, "swep_ai_l4d2_auto_shotgun_spas_reload_1"}, {1.6, "swep_ai_l4d2_auto_shotgun_spas_reload_2"}, {1.8, "swep_ai_l4d2_auto_shotgun_spas_reload_3"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -32,7 +32,7 @@ SWEP.Primary.ClipSize			= 10
 SWEP.Primary.DefaultClip		= 10
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
-SWEP.Primary.Sound				= "weapons/auto_shotgun_spas/gunfire/shotgun_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_auto_shotgun_spas_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_shotgun_spas.mdl",

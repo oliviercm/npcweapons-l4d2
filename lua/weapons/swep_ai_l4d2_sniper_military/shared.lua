@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.ShellEffectDirection       = -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.1, "weapons/sniper_military/gunother/sniper_military_slideback_1.wav"}, {0.4, "weapons/sniper_military/gunother/sniper_military_clip_out_1.wav"}, {1.2, "weapons/sniper_military/gunother/sniper_military_clip_in_1.wav"}, {1.8, "weapons/sniper_military/gunother/sniper_military_clip_locked_1.wav"}, {2.4, "weapons/sniper_military/gunother/sniper_military_push_button_1.wav"}}
+SWEP.ReloadSounds				= {{0.1, "swep_ai_l4d2_sniper_military_reload_1"}, {0.4, "swep_ai_l4d2_sniper_military_reload_2"}, {1.2, "swep_ai_l4d2_sniper_military_reload_3"}, {1.8, "swep_ai_l4d2_sniper_military_reload_4"}, {2.4, "swep_ai_l4d2_sniper_military_reload_5"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_HIGH
 
@@ -33,7 +33,7 @@ SWEP.Primary.ClipSize			= 30
 SWEP.Primary.DefaultClip		= 30
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_HIGH
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_HIGH
-SWEP.Primary.Sound				= "weapons/sniper_military/gunfire/sniper_military_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_sniper_military_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_sniper_military.mdl",

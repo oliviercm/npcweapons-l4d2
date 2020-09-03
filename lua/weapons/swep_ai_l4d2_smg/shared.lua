@@ -10,7 +10,7 @@ SWEP.HoldType					= "pistol"
 SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "ShellEject"
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.4, "weapons/smg/gunother/smg_clip_out_1.wav"}, {1.0, "weapons/smg/gunother/smg_clip_in_1.wav"}, {1.6, "weapons/smg/gunother/smg_clip_locked_1.wav"}}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_l4d2_smg_reload_1"}, {1.0, "swep_ai_l4d2_smg_reload_2"}, {1.6, "swep_ai_l4d2_smg_reload_3"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -31,7 +31,7 @@ SWEP.Primary.ClipSize			= 50
 SWEP.Primary.DefaultClip		= 50
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_LOW
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_LOW
-SWEP.Primary.Sound				= "weapons/smg/gunfire/smg_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_smg_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_smg_uzi.mdl",

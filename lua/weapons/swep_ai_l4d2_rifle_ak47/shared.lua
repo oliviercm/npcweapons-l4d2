@@ -11,7 +11,7 @@ SWEP.MuzzleEffect    			= "MuzzleEffect"
 SWEP.ShellEffect				= "RifleShellEject"
 SWEP.ShellEffectDirection       = -1
 SWEP.TracerEffect				= "Tracer"
-SWEP.ReloadSounds				= {{0.4, "weapons/rifle_ak47/gunother/rifle_clip_out_1.wav"}, {0.9, "weapons/rifle_ak47/gunother/rifle_clip_in_1.wav"}, {0.9, "weapons/rifle_ak47/gunother/rifle_clip_locked_1.wav"}, {1.6, "weapons/rifle_ak47/gunother/rifle_slideback.wav"}, {1.75, "weapons/rifle_ak47/gunother/rifle_slideforward.wav"}}
+SWEP.ReloadSounds				= {{0.4, "swep_ai_l4d2_rifle_ak47_reload_1"}, {0.9, "swep_ai_l4d2_rifle_ak47_reload_2"}, {0.9, "swep_ai_l4d2_rifle_ak47_reload_3"}, {1.6, "swep_ai_l4d2_rifle_ak47_reload_4"}, {1.75, "swep_ai_l4d2_rifle_ak47_reload_5"}}
 
 SWEP.ReloadTime					= NPC_WEAPONS_RELOAD_TIME_MED
 
@@ -32,7 +32,7 @@ SWEP.Primary.ClipSize			= 40
 SWEP.Primary.DefaultClip		= 40
 SWEP.Primary.AimDelayMin		= NPC_WEAPONS_MIN_AIM_DELAY_MED
 SWEP.Primary.AimDelayMax		= NPC_WEAPONS_MAX_AIM_DELAY_MED
-SWEP.Primary.Sound				= "weapons/rifle_ak47/gunfire/rifle_fire_1.wav"
+SWEP.Primary.Sound				= "swep_ai_l4d2_rifle_ak47_fire"
 
 SWEP.ClientModel				= {
 	model						= "models/w_models/weapons/w_rifle_ak47.mdl",
